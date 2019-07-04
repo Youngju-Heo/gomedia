@@ -1,3 +1,5 @@
+# SDL2 and ffmpeg media related library package
+
 # dependent
 * https://github.com/golang/freetype/raster
 
