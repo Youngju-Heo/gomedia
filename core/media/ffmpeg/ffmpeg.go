@@ -2,7 +2,7 @@ package ffmpeg
 
 /*
 #cgo CFLAGS: -I../../../deps/include
-#cgo darwin,amd64 LDFLAGS: -L../../../deps/lib -lavcodec -lavformat -lswresample -lswscale -lavutil -lmp3lame -lSDL2_darwin_amd64 -liconv -framework CoreVideo
+#cgo darwin,amd64 LDFLAGS: -L../../../deps/lib -lavcodec_darwin_amd64 -lavformat_darwin_amd64 -lswresample_darwin_amd64 -lswscale_darwin_amd64 -lavutil_darwin_amd64 -lmp3lame_darwin_amd64 -lSDL2_darwin_amd64 -liconv -framework CoreVideo
 #cgo linux,amd64 LDFLAGS: -L../../../deps/lib -lavcodec -lavformat -lswresample -lswscale -lavutil -lmp3lame -lSDL2_linux_amd64
 #cgo windows,amd64 LDFLAGS: -L../../../deps/lib -lavcodec_windows_amd64 -lavformat_windows_amd64 -lswresample_windows_amd64 -lswscale_windows_amd64 -lavutil_windows_amd64 -lmp3lame_windows_amd64 -lSDL2_windows_amd64 -liconv -lbcrypt
 #include "ffmpeg.h"
