@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"gomedia/core/media/av"
-	"gomedia/core/media/ffmpeg"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/ffmpeg"
 )
 
 // PacketTranscoder struct for transcoder

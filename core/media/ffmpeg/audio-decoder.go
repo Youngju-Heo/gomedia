@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"gomedia/core/media/av"
-	"gomedia/core/media/codec/aacparser"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
 )
 
 // AudioDecoder type

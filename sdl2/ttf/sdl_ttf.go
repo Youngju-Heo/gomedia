@@ -7,7 +7,7 @@ package ttf
 //    TTF_SetError("%s", str);
 //}
 import "C"
-import "github.com/veandco/go-sdl2/sdl"
+import "github.com/Youngju-Heo/gomedia/sdl2/sdl"
 import "unsafe"
 import "errors"
 

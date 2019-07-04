@@ -1,7 +1,7 @@
 package device
 
 import (
-	"gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
 )
 
 // AudioBuffer audio play buffer

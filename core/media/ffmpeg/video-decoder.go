@@ -24,7 +24,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
 )
 
 // VideoFrame decoded frame

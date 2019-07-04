@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
 )
 
 // HandlerDemuxer struct

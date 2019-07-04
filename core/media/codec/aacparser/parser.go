@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"gomedia/core/media/av"
-	"gomedia/core/media/utils/bits"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits"
 )
 
 // copied from libavcodec/mpeg4audio.h
