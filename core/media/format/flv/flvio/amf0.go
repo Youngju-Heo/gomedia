@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"../../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 // AMF0ParseError struct

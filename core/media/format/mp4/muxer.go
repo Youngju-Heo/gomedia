@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"../../av"
-	"../../codec/aacparser"
-	"../../codec/h264parser"
-	"../../format/mp4/mp4io"
-	"../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/h264parser"
+	"github.com/Youngju-Heo/gomedia/core/media/format/mp4/mp4io"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 // Muxer type

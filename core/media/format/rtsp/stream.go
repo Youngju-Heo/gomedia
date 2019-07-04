@@ -3,8 +3,8 @@ package rtsp
 import (
 	"time"
 
-	"../../av"
-	"../../format/rtsp/sdp"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/format/rtsp/sdp"
 )
 
 // Stream type

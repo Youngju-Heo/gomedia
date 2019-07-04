@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"../../av"
-	"../../av/avutil"
-	"../../codec"
-	"../../codec/aacparser"
-	"../../codec/h264parser"
-	"../../format/rtsp/sdp"
-	"../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/Youngju-Heo/gomedia/core/media/codec"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/h264parser"
+	"github.com/Youngju-Heo/gomedia/core/media/format/rtsp/sdp"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 // ErrCodecDataChange var

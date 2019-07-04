@@ -1,6 +1,6 @@
 package mp4io
 
-import "../../../utils/bits/pio"
+import "github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 import "time"
 
 // MOOF const

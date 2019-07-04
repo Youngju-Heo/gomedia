@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"../../av"
-	"../../av/avutil"
-	"../../format/flv"
-	"../../format/flv/flvio"
-	"../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/Youngju-Heo/gomedia/core/media/format/flv"
+	"github.com/Youngju-Heo/gomedia/core/media/format/flv/flvio"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 // Debug var

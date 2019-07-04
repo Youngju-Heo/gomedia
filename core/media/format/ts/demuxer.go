@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"../../av"
-	"../../codec/aacparser"
-	"../../codec/h264parser"
-	"../../format/ts/tsio"
-	"../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/h264parser"
+	"github.com/Youngju-Heo/gomedia/core/media/format/ts/tsio"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 // Demuxer type

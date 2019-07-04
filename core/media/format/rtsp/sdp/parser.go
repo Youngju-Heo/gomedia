@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"../../../av"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
 )
 
 // Session type

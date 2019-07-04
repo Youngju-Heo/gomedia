@@ -3,8 +3,8 @@ package mp4
 import (
 	"time"
 
-	"../../av"
-	"../../format/mp4/mp4io"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/format/mp4/mp4io"
 )
 
 // Stream type

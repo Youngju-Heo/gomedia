@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"io"
 
-	"../../av"
-	"../../av/avutil"
-	"../../codec/aacparser"
-	"../../codec/h264parser"
-	"../../format/flv/flvio"
-	"../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/h264parser"
+	"github.com/Youngju-Heo/gomedia/core/media/format/flv/flvio"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 // MaxProbePacketCount const

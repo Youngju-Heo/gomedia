@@ -3,8 +3,8 @@ package mp4
 import (
 	"io"
 
-	"../../av"
-	"../../av/avutil"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
 )
 
 // CodecTypes var

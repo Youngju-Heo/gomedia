@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"../../../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 const (
