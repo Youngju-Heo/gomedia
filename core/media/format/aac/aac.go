@@ -6,9 +6,9 @@ import (
 	"io"
 	"time"
 
-	"../../av"
-	"../../av/avutil"
-	"../../codec/aacparser"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
 )
 
 // Muxer struct
