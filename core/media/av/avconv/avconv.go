@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"../../av"
-	"../../av/avutil"
-	"../../av/pktque"
-	"../../av/transcode"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/Youngju-Heo/gomedia/core/media/av/pktque"
+	"github.com/Youngju-Heo/gomedia/core/media/av/transcode"
 )
 
 // Debug debug status

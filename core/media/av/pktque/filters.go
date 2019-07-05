@@ -4,7 +4,7 @@ package pktque
 import (
 	"time"
 
-	"../../av"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
 )
 
 // Filter Filter

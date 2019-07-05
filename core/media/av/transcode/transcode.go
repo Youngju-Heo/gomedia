@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"../../av"
-	"../../av/pktque"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/av/pktque"
 )
 
 // Debug type
