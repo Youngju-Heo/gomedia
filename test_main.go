@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
-func TestProgram(t *testing.T) {
+// TestMain func
+func TestMain(t *testing.M) {
 	log.Println("test procedure")
 }
