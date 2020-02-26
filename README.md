@@ -57,4 +57,6 @@
     --enable-muxer=mpegvideo,mp3,mp4,gif,mov,matroska,webm,h264,mjpeg,mulaw,alaw,opus,aac \
     --enable-protocol=file \
     --enable-filter=scale,fps,copy,palettegen,vflip,paletteuse,crop
+
+    make -j 4 install
     ```
