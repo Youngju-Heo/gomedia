@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"../av"
-	"../utils/bits"
-	"../utils/bits/pio"
+	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits"
+	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
 )
 
 const (

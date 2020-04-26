@@ -135,6 +135,7 @@ var (
 	// define video
 	H264 = MakeVideoCodecType(avCodecTypeMagic + 1)
 	JPEG = MakeVideoCodecType(avCodecTypeMagic + 2)
+	HEVC = MakeVideoCodecType(avCodecTypeMagic + 3)
 
 	// define audio
 	AAC  = MakeAudioCodecType(avCodecTypeMagic + 1)
@@ -154,6 +155,8 @@ func (ctype CodecType) String() string {
 		return "H264"
 	case JPEG:
 		return "JPEG"
+	case HEVC:
+		return "HEVC"
 
 	// from audio
 	case AAC:
@@ -176,6 +179,8 @@ func (ctype CodecType) CodecName() string {
 		return "h264"
 	case JPEG:
 		return "jpeg"
+	case HEVC:
+		return "hevc"
 
 	// from audio
 	case AAC:
@@ -234,6 +239,14 @@ type VideoCodecData interface {
 // H264VideoCodecData for h264 info
 type H264VideoCodecData interface {
 	VideoCodecData
+	SPS() []byte
+	PPS() []byte
+}
+
+// H265VideoCodecData for h264 info
+type H265VideoCodecData interface {
+	VideoCodecData
+	VPS() []byte
 	SPS() []byte
 	PPS() []byte
 }
