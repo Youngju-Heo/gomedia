@@ -59,6 +59,8 @@ func NewDecoder(codecType av.CodecType) (*VideoDecoder, error) {
 	switch codecType {
 	case av.H264:
 		id = C.AV_CODEC_ID_H264
+	case av.JPEG:
+		id = C.AV_CODEC_ID_JPEG
 	default:
 		return nil, fmt.Errorf("invalid codec type: %v", codecType)
 	}

@@ -134,6 +134,7 @@ var (
 	TEXT = CodecType(0)
 	// define video
 	H264 = MakeVideoCodecType(avCodecTypeMagic + 1)
+	JPEG = MakeVideoCodecType(avCodecTypeMagic + 2)
 
 	// define audio
 	AAC  = MakeAudioCodecType(avCodecTypeMagic + 1)
@@ -151,6 +152,8 @@ func (ctype CodecType) String() string {
 	// from video
 	case H264:
 		return "H264"
+	case JPEG:
+		return "JPEG"
 
 	// from audio
 	case AAC:
@@ -171,6 +174,8 @@ func (ctype CodecType) CodecName() string {
 	// from video
 	case H264:
 		return "h264"
+	case JPEG:
+		return "jpeg"
 
 	// from audio
 	case AAC:
